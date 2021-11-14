@@ -1,20 +1,36 @@
-# Products
+# django-products
+
+![example workflow](https://github.com/juansantosgomez/django-products/actions/workflows/python-publish.yml/badge.svg)
+
+##### current version: v0.2
 
 Products is a Django app to store product ID and Description information. For each product description, a product Barcode is assigned to it.
 
-# Quick start
+##### REQUIREMENTS:
 
----
+- Python v3.9
+- pip
+- Django v3.2
 
-- 1. Add "products" to your INSTALLED_APPS setting like this::
+##### INSTALLATION:
+
+On your command line inside your project directory type the following:
+
+```
+pip install django-products
+```
+
+## Quick start
+
+- Add "products" to your INSTALLED_APPS setting like this::
 
   INSTALLED_APPS = [
   ...
   'products',
   ]
 
-- 2. Include the products URLconf in your project urls.py like this::
+- Include the products URLconf in your project urls.py like this::
 
   path('products/', include('products.urls')),
 
-- 3. Run `python manage.py migrate` to create the products models.
+- Run `python manage.py migrate` to create the products models.

@@ -1,8 +1,9 @@
 # django-products
 
 ![example workflow](https://github.com/juansantosgomez/django-products/actions/workflows/python-publish.yml/badge.svg)
+![example workflow](https://github.com/juansantosgomez/django-products/actions/workflows/test-python-publish.yml/badge.svg)
 
-##### current version: v0.2
+##### current version: v0.3
 
 Products is a Django app to store product ID and Description information. For each product description, a product Barcode is assigned to it.
 

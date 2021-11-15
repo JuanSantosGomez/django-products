@@ -6,7 +6,6 @@ from rest_framework.response import Response
 from rest_framework import status
 from products.serializers import ProductSerializer
 from products.models import Product
-from fileSculpt.filesculpt import Sculptfile
 import os
 
 # Create your views here.
